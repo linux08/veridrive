@@ -1,5 +1,6 @@
 import React from 'react';
 import { Phone, Mail, MapPin, MessageCircle } from 'lucide-react';
+import Logo from './Logo';
 
 export default function Contact() {
   return (
@@ -94,14 +95,12 @@ export default function Contact() {
       {/* Footer */}
       <footer style={{ background: 'var(--navy-dark)', borderTop: '1px solid rgba(255,255,255,0.06)', padding: '40px 24px' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 20 }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-            <div style={{ width: 28, height: 28, background: 'var(--gold)', borderRadius: 3, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-              <span style={{ fontFamily: 'Outfit', fontWeight: 900, fontSize: 14, color: 'var(--navy-dark)' }}>V</span>
-            </div>
+          <a href="#" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 10 }}>
+            <Logo size={28} />
             <span style={{ fontFamily: 'Outfit', fontWeight: 800, fontSize: 15, color: 'white', letterSpacing: '0.06em' }}>
               VERI<span style={{ color: 'var(--gold)' }}>DRIVE</span>
             </span>
-          </div>
+          </a>
           <div style={{ display: 'flex', gap: 28, flexWrap: 'wrap' }}>
             {['Services', 'How It Works', 'Nigeria Export', 'Find My Car', 'Contact'].map(l => (
               <a key={l} href={`#${l.toLowerCase().replace(/ /g, '-')}`} className="nav-link" style={{ fontSize: 13 }}>{l}</a>

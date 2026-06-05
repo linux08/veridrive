@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Logo from './Logo';
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -33,23 +34,10 @@ export default function Navbar() {
       <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 24px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: 68 }}>
         {/* Logo */}
         <a href="#" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 10 }}>
-          <div style={{
-            width: 34, height: 34,
-            background: 'var(--gold)',
-            borderRadius: 3,
-            display: 'flex', alignItems: 'center', justifyContent: 'center',
-          }}>
-            <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
-              <path d="M9 2L2 7V16H7V11H11V16H16V7L9 2Z" fill="#0D1F30" strokeWidth="0" />
-              <path d="M7 11H11V16H7V11Z" fill="#0D1F30" />
-              <circle cx="9" cy="6.5" r="1.5" fill="#C9A84C" />
-            </svg>
-          </div>
-          <div>
-            <span style={{ fontFamily: 'Outfit', fontWeight: 800, fontSize: 18, color: 'white', letterSpacing: '0.04em' }}>
-              VERI<span style={{ color: 'var(--gold)' }}>DRIVE</span>
-            </span>
-          </div>
+          <Logo size={36} />
+          <span style={{ fontFamily: 'Outfit', fontWeight: 800, fontSize: 18, color: 'white', letterSpacing: '0.04em' }}>
+            VERI<span style={{ color: 'var(--gold)' }}>DRIVE</span>
+          </span>
         </a>
 
         {/* Desktop links */}
