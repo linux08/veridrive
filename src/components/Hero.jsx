@@ -120,10 +120,8 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Bottom fade */}
-      <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: 80, background: 'linear-gradient(to bottom, transparent, var(--cream))' }} />
 
-      <style>{`
+<style>{`
         @media (max-width: 900px) {
           .hero-card { display: none !important; }
         }
