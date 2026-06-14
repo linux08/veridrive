@@ -45,7 +45,7 @@ export default function Services() {
         <div style={{ marginBottom: 64 }}>
           <span className="section-label">What We Do</span>
           <span className="gold-line" style={{ display: 'block', marginTop: 12, marginBottom: 16 }} />
-          <h2 style={{ fontFamily: 'DM Serif Display', fontSize: 'clamp(32px, 4vw, 48px)', fontWeight: 400, color: 'var(--navy-dark)', margin: 0, maxWidth: 520, lineHeight: 1.2 }}>
+          <h2 style={{ fontFamily: 'Inter', fontSize: 'clamp(32px, 4vw, 48px)', fontWeight: 700, color: 'var(--navy-dark)', margin: 0, maxWidth: 520, lineHeight: 1.2 }}>
             Our Services
           </h2>
           <p style={{ fontSize: 17, color: '#5A7A96', marginTop: 16, maxWidth: 480, lineHeight: 1.7 }}>

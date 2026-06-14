@@ -3,14 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --navy: #1A3C5E;
-  --navy-dark: #0D1F30;
-  --navy-light: #2A5480;
-  --gold: #C9A84C;
-  --gold-light: #E2C47A;
-  --gold-muted: #F5EDD4;
-  --cream: #FDFAF4;
-  --slate: #F0F4F8;
+  --navy:       #000080;   /* Maritime Blue — primary */
+  --navy-dark:  #000080;   /* Maritime Blue — dark surfaces */
+  --navy-light: #1A1A9C;   /* Maritime Blue — lighter tint */
+  --gold:       #D4AF37;   /* Antique Gold — accent */
+  --gold-light: #E8C84A;   /* Antique Gold — hover/light */
+  --gold-muted: #F5EDCC;   /* Antique Gold — muted tint */
+  --cream:      #F8F8F8;   /* Chalk White — page background */
+  --slate:      #EFEFEF;   /* Light surface variant */
+  --text:       #333333;   /* Onyx Black — body text */
+  --border:     #C0C0C0;   /* Sterling Silver — borders/dividers */
 }
 
 * { box-sizing: border-box; }
@@ -19,9 +21,9 @@ html { scroll-behavior: smooth; }
 
 body {
   margin: 0;
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Inter', sans-serif;
   background: var(--cream);
-  color: var(--navy-dark);
+  color: var(--text);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -83,7 +85,7 @@ body {
   gap: 8px;
   background: var(--gold);
   color: var(--navy-dark);
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.04em;
@@ -93,6 +95,7 @@ body {
   cursor: pointer;
   transition: background 0.2s, transform 0.15s;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .btn-gold:hover {
   background: var(--gold-light);
@@ -105,7 +108,7 @@ body {
   gap: 8px;
   background: transparent;
   color: white;
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 0.04em;
@@ -115,6 +118,7 @@ body {
   cursor: pointer;
   transition: border-color 0.2s, background 0.2s;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .btn-outline:hover {
   border-color: var(--gold-light);
@@ -136,19 +140,19 @@ body {
 }
 .card-hover:hover {
   transform: translateY(-4px);
-  box-shadow: 0 20px 48px rgba(26,60,94,0.12);
+  box-shadow: 0 20px 48px rgba(0,0,128,0.12);
 }
 
 /* ── inputs ── */
 .vd-input {
   width: 100%;
   background: white;
-  border: 1.5px solid #D8E4F0;
+  border: 1.5px solid var(--border);
   border-radius: 4px;
   padding: 12px 16px;
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
-  color: var(--navy-dark);
+  color: var(--text);
   outline: none;
   transition: border-color 0.2s;
 }
@@ -158,12 +162,12 @@ body {
 .vd-select {
   width: 100%;
   background: white;
-  border: 1.5px solid #D8E4F0;
+  border: 1.5px solid var(--border);
   border-radius: 4px;
   padding: 12px 16px;
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
-  color: var(--navy-dark);
+  color: var(--text);
   outline: none;
   appearance: none;
   cursor: pointer;
@@ -174,12 +178,12 @@ body {
 .vd-textarea {
   width: 100%;
   background: white;
-  border: 1.5px solid #D8E4F0;
+  border: 1.5px solid var(--border);
   border-radius: 4px;
   padding: 12px 16px;
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
-  color: var(--navy-dark);
+  color: var(--text);
   outline: none;
   resize: vertical;
   min-height: 100px;

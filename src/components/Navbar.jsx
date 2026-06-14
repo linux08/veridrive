@@ -35,7 +35,7 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 10 }}>
           <Logo size={36} />
-          <span style={{ fontFamily: 'Outfit', fontWeight: 800, fontSize: 18, color: 'white', letterSpacing: '0.04em' }}>
+          <span style={{ fontFamily: 'Inter', fontWeight: 800, fontSize: 18, color: 'white', letterSpacing: '0.04em' }}>
             VERI<span style={{ color: 'var(--gold)' }}>DRIVE</span>
           </span>
         </a>

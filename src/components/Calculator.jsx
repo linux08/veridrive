@@ -66,7 +66,7 @@ export default function Calculator_() {
         <div>
           <span className="section-label">Nigeria Export</span>
           <span className="gold-line" style={{ display: 'block', marginTop: 12, marginBottom: 16 }} />
-          <h2 style={{ fontFamily: 'DM Serif Display', fontSize: 'clamp(32px, 4vw, 46px)', fontWeight: 400, color: 'var(--navy-dark)', margin: '0 0 20px', lineHeight: 1.2 }}>
+          <h2 style={{ fontFamily: 'Inter', fontSize: 'clamp(32px, 4vw, 46px)', fontWeight: 700, color: 'var(--navy-dark)', margin: '0 0 20px', lineHeight: 1.2 }}>
             True Landed Cost Calculator
           </h2>
           <p style={{ fontSize: 16, color: '#5A7A96', lineHeight: 1.75, margin: '0 0 32px' }}>

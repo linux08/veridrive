@@ -46,10 +46,10 @@ export default function Hero() {
           </div>
 
           {/* Headline */}
-          <h1 className="animate-fade-up-d1" style={{ fontFamily: 'DM Serif Display', fontSize: 'clamp(42px, 6vw, 72px)', lineHeight: 1.08, color: 'white', margin: '0 0 8px', fontWeight: 400 }}>
+          <h1 className="animate-fade-up-d1" style={{ fontFamily: 'Inter', fontSize: 'clamp(42px, 6vw, 72px)', lineHeight: 1.08, color: 'white', margin: '0 0 8px', fontWeight: 800 }}>
             Your Car.
           </h1>
-          <h1 className="animate-fade-up-d2" style={{ fontFamily: 'DM Serif Display', fontSize: 'clamp(42px, 6vw, 72px)', lineHeight: 1.08, margin: '0 0 32px', fontWeight: 400 }}>
+          <h1 className="animate-fade-up-d2" style={{ fontFamily: 'Inter', fontSize: 'clamp(42px, 6vw, 72px)', lineHeight: 1.08, margin: '0 0 32px', fontWeight: 800 }}>
             <span className="gold-shimmer">Verified.</span>
           </h1>
 

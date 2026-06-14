@@ -48,7 +48,7 @@ export default function Contact() {
                   display: 'inline-flex', alignItems: 'center', gap: 10,
                   marginTop: 36,
                   background: '#25D366', color: 'white',
-                  fontFamily: 'Outfit', fontWeight: 700, fontSize: 14,
+                  fontFamily: 'Inter', fontWeight: 700, fontSize: 14,
                   padding: '13px 24px', borderRadius: 6,
                   textDecoration: 'none', letterSpacing: '0.02em',
                   transition: 'transform 0.15s, background 0.2s',
@@ -67,7 +67,7 @@ export default function Contact() {
                 { num: '$0', label: 'Hidden Fees', desc: 'What you see is what you pay.' },
               ].map(({ num, label, desc }) => (
                 <div key={label} style={{ background: 'white', border: '1px solid #E4EEF7', borderRadius: 12, padding: '28px 28px', display: 'flex', gap: 20, alignItems: 'flex-start' }} className="card-hover">
-                  <div style={{ fontSize: 32, fontWeight: 800, color: 'var(--navy)', fontFamily: 'Outfit', lineHeight: 1, minWidth: 72 }}>{num}</div>
+                  <div style={{ fontSize: 32, fontWeight: 800, color: 'var(--navy)', fontFamily: 'Inter', lineHeight: 1, minWidth: 72 }}>{num}</div>
                   <div>
                     <div style={{ fontSize: 14, fontWeight: 700, color: 'var(--navy-dark)', marginBottom: 4 }}>{label}</div>
                     <div style={{ fontSize: 13, color: '#7A9AB4', lineHeight: 1.6 }}>{desc}</div>
@@ -97,7 +97,7 @@ export default function Contact() {
         <div style={{ maxWidth: 1200, margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 20 }}>
           <a href="#" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 10 }}>
             <Logo size={28} />
-            <span style={{ fontFamily: 'Outfit', fontWeight: 800, fontSize: 15, color: 'white', letterSpacing: '0.06em' }}>
+            <span style={{ fontFamily: 'Inter', fontWeight: 800, fontSize: 15, color: 'white', letterSpacing: '0.06em' }}>
               VERI<span style={{ color: 'var(--gold)' }}>DRIVE</span>
             </span>
           </a>

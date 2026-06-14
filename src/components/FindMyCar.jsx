@@ -26,7 +26,7 @@ export default function FindMyCar() {
         <div style={{ marginBottom: 52, textAlign: 'center' }}>
           <span className="section-label">Get Started</span>
           <span className="gold-line" style={{ display: 'block', margin: '12px auto 16px', transformOrigin: 'center' }} />
-          <h2 style={{ fontFamily: 'DM Serif Display', fontSize: 'clamp(32px, 4vw, 46px)', fontWeight: 400, color: 'white', margin: '0 0 16px', lineHeight: 1.2 }}>
+          <h2 style={{ fontFamily: 'Inter', fontSize: 'clamp(32px, 4vw, 46px)', fontWeight: 700, color: 'white', margin: '0 0 16px', lineHeight: 1.2 }}>
             Find My Car
           </h2>
           <p style={{ fontSize: 16, color: 'rgba(255,255,255,0.55)', lineHeight: 1.7, maxWidth: 480, margin: '0 auto' }}>
@@ -64,7 +64,7 @@ export default function FindMyCar() {
                       background: form.type === opt.value ? 'var(--gold)' : 'rgba(255,255,255,0.04)',
                       color: form.type === opt.value ? 'var(--navy-dark)' : 'rgba(255,255,255,0.5)',
                       transition: 'all 0.2s',
-                      fontFamily: 'Outfit',
+                      fontFamily: 'Inter',
                     }}
                   >
                     {opt.label}

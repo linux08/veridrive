@@ -21,7 +21,7 @@ export default function HowItWorks() {
           <div>
             <span className="section-label">The Process</span>
             <span className="gold-line" style={{ display: 'block', marginTop: 12, marginBottom: 16 }} />
-            <h2 style={{ fontFamily: 'DM Serif Display', fontSize: 'clamp(32px, 4vw, 48px)', fontWeight: 400, color: 'white', margin: 0, lineHeight: 1.2 }}>
+            <h2 style={{ fontFamily: 'Inter', fontSize: 'clamp(32px, 4vw, 48px)', fontWeight: 700, color: 'white', margin: 0, lineHeight: 1.2 }}>
               How VeriDrive Works
             </h2>
           </div>
