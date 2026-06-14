@@ -10,7 +10,7 @@ export default function Hero() {
         minHeight: '100vh',
         display: 'flex',
         alignItems: 'center',
-        background: 'linear-gradient(135deg, #0D1F30 0%, #1A3C5E 55%, #0F2A40 100%)',
+        background: 'linear-gradient(135deg, #000050 0%, #000080 55%, #000065 100%)',
         overflow: 'hidden',
       }}
     >

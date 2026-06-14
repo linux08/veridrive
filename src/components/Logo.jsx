@@ -5,15 +5,14 @@ export default function Logo({ size = 34 }) {
     <svg
       width={size}
       height={size}
-      viewBox="0 0 100 100"
+      viewBox="0 0 512 512"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <rect width="100" height="100" rx="16" fill="#000080" />
-      {/* White left arm */}
-      <polygon points="14,15 40,15 52,83 26,83" fill="white" />
-      {/* Antique Gold right arm */}
-      <polygon points="40,15 86,15 74,83 52,83" fill="#D4AF37" />
+      <rect width="512" height="512" rx="42.7" fill="#000060" />
+      <polygon points="85.3,113.8 170.7,113.8 256.0,369.8 199.1,369.8" fill="white" />
+      <polygon points="341.3,113.8 426.7,113.8 256.0,369.8 298.7,369.8" fill="white" />
+      <polygon points="213.3,241.8 312.9,113.8 426.7,113.8 298.7,369.8 256.0,369.8" fill="#D4AF37" />
     </svg>
   );
 }

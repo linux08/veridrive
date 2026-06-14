@@ -26,7 +26,7 @@ export default function Navbar() {
         top: 0, left: 0, right: 0,
         zIndex: 100,
         transition: 'background 0.3s, box-shadow 0.3s',
-        background: scrolled ? 'rgba(13,31,48,0.97)' : 'transparent',
+        background: scrolled ? 'rgba(0,0,96,0.97)' : 'transparent',
         boxShadow: scrolled ? '0 1px 24px rgba(0,0,0,0.25)' : 'none',
         backdropFilter: scrolled ? 'blur(12px)' : 'none',
       }}
