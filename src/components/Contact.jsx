@@ -23,7 +23,7 @@ export default function Contact() {
               <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
                 {[
                   { icon: <MessageCircle size={18} />, label: 'WhatsApp', value: '+1 (206) 000-0000', note: 'Fastest response' },
-                  { icon: <Mail size={18} />, label: 'Email', value: 'hello@veridrive.co', note: 'Replies within 24 hours' },
+                  { icon: <Mail size={18} />, label: 'Email', value: 'admin@veridrive.autos', note: 'Replies within 24 hours' },
                   { icon: <MapPin size={18} />, label: 'Location', value: 'Seattle, Washington', note: 'Serving Seattle metro + nationwide' },
                 ].map(({ icon, label, value, note }) => (
                   <div key={label} style={{ display: 'flex', alignItems: 'flex-start', gap: 16 }}>
@@ -107,7 +107,7 @@ export default function Contact() {
             ))}
           </div>
           <div style={{ fontSize: 12, color: 'rgba(255,255,255,0.3)' }}>
-            © 2026 VeriDrive · Seattle, WA · veridrive.co
+            © 2026 VeriDrive · Seattle, WA · veridrive.autos
           </div>
         </div>
       </footer>

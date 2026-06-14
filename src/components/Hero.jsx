@@ -10,7 +10,7 @@ export default function Hero() {
         minHeight: '100vh',
         display: 'flex',
         alignItems: 'center',
-        background: 'linear-gradient(135deg, #000050 0%, #000080 55%, #000065 100%)',
+        background: 'linear-gradient(135deg, #04102D 0%, #081B4B 55%, #0A2260 100%)',
         overflow: 'hidden',
       }}
     >
@@ -54,7 +54,7 @@ export default function Hero() {
           </h1>
 
           <p className="animate-fade-up-d3" style={{ fontSize: 'clamp(16px, 2vw, 19px)', lineHeight: 1.7, color: 'rgba(255,255,255,0.7)', maxWidth: 520, margin: '0 0 48px' }}>
-            We source, inspect, and verify used vehicles across Seattle — and coordinate cross-border exports to Nigeria. No scams. No hidden costs. Just confidence in every transaction.
+            We source, inspect, and verify used vehicles across the United States and coordinate cross-border exports. No scams. No hidden costs. Just confidence in every transaction.
           </p>
 
           {/* CTAs */}

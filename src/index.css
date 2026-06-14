@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --navy:       #000080;   /* Maritime Blue — primary */
-  --navy-dark:  #000080;   /* Maritime Blue — dark surfaces */
-  --navy-light: #1A1A9C;   /* Maritime Blue — lighter tint */
-  --gold:       #D4AF37;   /* Antique Gold — accent */
-  --gold-light: #E8C84A;   /* Antique Gold — hover/light */
-  --gold-muted: #F5EDCC;   /* Antique Gold — muted tint */
-  --cream:      #F8F8F8;   /* Chalk White — page background */
+  --navy:       #081B4B;   /* Primary Navy */
+  --navy-dark:  #081B4B;   /* Primary Navy — dark surfaces */
+  --navy-light: #0E2A6E;   /* Primary Navy — lighter tint */
+  --gold:       #C89B3C;   /* Premium Gold — accent */
+  --gold-light: #D9AE50;   /* Premium Gold — hover/light */
+  --gold-muted: #F5EDCC;   /* Premium Gold — muted tint */
+  --cream:      #F8F8F8;   /* Background */
   --slate:      #EFEFEF;   /* Light surface variant */
-  --text:       #333333;   /* Onyx Black — body text */
-  --border:     #C0C0C0;   /* Sterling Silver — borders/dividers */
+  --text:       #1E1E1E;   /* Onyx — body text */
+  --border:     #A7ADB3;   /* Silver — borders/dividers */
 }
 
 * { box-sizing: border-box; }
