@@ -22,7 +22,7 @@ export default function Contact() {
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
                 {[
-                  { icon: <MessageCircle size={18} />, label: 'WhatsApp', value: '+1 (206) 000-0000', note: 'Fastest response' },
+                  { icon: <MessageCircle size={18} />, label: 'WhatsApp', value: '+234 816 654 4879', note: 'Fastest response' },
                   { icon: <Mail size={18} />, label: 'Email', value: 'admin@veridrive.autos', note: 'Replies within 24 hours' },
                   { icon: <MapPin size={18} />, label: 'Location', value: 'Seattle, Washington', note: 'Serving Seattle metro + nationwide' },
                 ].map(({ icon, label, value, note }) => (
@@ -41,7 +41,7 @@ export default function Contact() {
 
               {/* WhatsApp CTA */}
               <a
-                href="https://wa.me/12060000000"
+                href="https://wa.me/2348166544879"
                 target="_blank"
                 rel="noreferrer"
                 style={{
