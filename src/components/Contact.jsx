@@ -23,7 +23,7 @@ export default function Contact() {
               <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
                 {[
                   { icon: <MessageCircle size={18} />, label: 'WhatsApp', value: '+234 816 654 4879', note: 'Fastest response' },
-                  { icon: <Mail size={18} />, label: 'Email', value: 'admin@veridrive.autos', note: 'Replies within 24 hours' },
+                  { icon: <Mail size={18} />, label: 'Email', value: 'veridriveus@gmail.com', note: 'Replies within 24 hours' },
                   { icon: <MapPin size={18} />, label: 'Location', value: 'Seattle, Washington', note: 'Serving Seattle metro + nationwide' },
                 ].map(({ icon, label, value, note }) => (
                   <div key={label} style={{ display: 'flex', alignItems: 'flex-start', gap: 16 }}>
