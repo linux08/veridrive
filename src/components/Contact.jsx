@@ -34,7 +34,7 @@ export default function Contact() {
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
                 {[
-                  { icon: <MessageCircle size={18} />, label: 'WhatsApp', value: '+234 816 654 4879', note: 'Fastest response', href: 'https://wa.me/2348166544879' },
+                  // { icon: <MessageCircle size={18} />, label: 'WhatsApp', value: '+234 816 654 4879', note: 'Fastest response', href: 'https://wa.me/2348166544879' },
                   { icon: <Mail size={18} />,          label: 'Email',    value: 'veridriveus@gmail.com', note: 'Replies within 24 hours', href: 'mailto:veridriveus@gmail.com' },
                   { icon: <MapPin size={18} />,        label: 'Location', value: 'Seattle, Washington', note: 'Serving Seattle metro + nationwide', href: null },
                 ].map(({ icon, label, value, note, href }) => (
@@ -54,7 +54,7 @@ export default function Contact() {
                 ))}
               </div>
 
-              {/* WhatsApp CTA */}
+              {/* WhatsApp CTA — uncomment when number is ready
               <a
                 href="https://wa.me/2348166544879"
                 target="_blank"
@@ -72,6 +72,7 @@ export default function Contact() {
                 <MessageCircle size={16} />
                 Message Us on WhatsApp
               </a>
+              */}
             </div>
 
             {/* Right: trust block */}
